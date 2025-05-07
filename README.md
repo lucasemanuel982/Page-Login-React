@@ -53,19 +53,19 @@ npm test
 yarn test
 ```
 
+## 🚀 Deploy no GitHub Pages
+
+Para fazer o deploy do projeto no GitHub Pages, siga os passos:
+
+1. Substitua `[SEU_USUARIO_GITHUB]` no arquivo `package.json` pelo seu nome de usuário do GitHub.
+
+2. Execute o comando de deploy:
+```bash
+npm run deploy
+```
+
+3. O site estará disponível em: `https://[SEU_USUARIO_GITHUB].github.io/Page-Login-React`
+
 ## 📦 Estrutura do Projeto
 
 ```
-src/
-  ├── pages/         # Páginas da aplicação
-  ├── components/    # Componentes reutilizáveis
-  ├── global.ts      # Estilos globais
-  └── index.tsx      # Ponto de entrada da aplicação
-```
-
-## 🛠️ Funcionalidades
-
-- Formulário de login com validação
-- Estilização moderna com Styled Components
-- Validação de formulários com Yup
-- Gerenciamento de estado com React Hook Form
